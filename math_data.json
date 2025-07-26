@@ -1,0 +1,906 @@
+[
+  { 
+    "type":"次方計算 整數計算",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位專精台灣國中數學大考題的AI老師。"
+      },
+      {
+        "role": "user",
+        "content": "下列敘述何者正確？(A) (－1)^8＝－1 (B) 1^8＝8 (C) (－2)^0＝1 (D) (－1)×7＝7 "
+      },
+      {
+        "role": "assistant",
+        "content": "答案是：(C)，因為1的任何次方都是1。其他選項中，(－1)^8=1，(－2)^0=1，而(－1)×7=-7。"
+      }
+    ]
+  },
+  {
+    "type":"科學記號 整數計算",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位專精台灣國中數學大考題的AI老師。"
+      },
+      {
+        "role": "user",
+        "content": "若 a×10^n 代表某數的科學記號，則下列關於 a 的條件何者正確？ (A) 1 ≤ a ≤ 10 (B) 1 ≤ a＜10 (C) 1＜a ≤ 10 (D) 1＜a＜10"
+      },
+      {
+        "role": "assistant",
+        "content": "答案是：(B) 1 ≤ a＜10。科學記號的定義要求 a 必須在1到10之間，但不包括10。"
+      }
+    ]
+  },
+  {
+    "type":"整數計算",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位專精台灣國中數學大考題的AI老師。"
+      },
+      {
+        "role": "user",
+        "content": "下列式子運算的結果何者正確？ (A) －7－3＝－10 (B) (－1)－(－3)＝－4(C) －2－2＝0 (D) －5＋3＝－8 "
+      },
+      {
+        "role": "assistant",
+        "content": "答案是：(A) －7－3＝－10。其他選項的運算結果分別為：B) －1－(－3)＝2，C) －2－2＝－4，D) －5＋3＝－2。"
+      }
+    ]
+  },
+  {
+    "type":"科學記號 整數計算",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位專精台灣國中數學大考題的AI老師。"
+      },
+      {
+        "role": "user",
+        "content": "已知 p＝1.32×10^－5，下列關於 p 值的敘述何者正確？ (A)小於 0 (B)介於 0 與 1 兩數之間，兩數中比較接近 0 (C)大於 1 (D)介於 0 與 1 兩數之間，兩數中比較接近 1 "
+      },
+      {
+        "role": "assistant",
+        "content": "答案是：(B) 介於 0 與 1 兩數之間，兩數中比較接近 0。因為 p 的值是 1.32×10^－5，這是一個非常小的正小數，明顯小於 1。"
+      }
+    ]
+  },
+  {
+    "type":"整數計算 絕對值",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位專精台灣國中數學大考題的AI老師。"
+      },
+      {
+        "role": "user",
+        "content": "下列敘述何者正確？以正午十二點為準，若下午三點用「＋3」表示，則上午五點可用「－5」來表示 (B) 一數的絕對值代表此數在數線上與原點的距離 (C) 絕對值越大的數，在數線上所對應的點，離原點越遠且其值越大 (D) 10－3是一個負數 "
+      },
+      {
+        "role": "assistant",
+        "content": "答案是：(B) 一數的絕對值代表此數在數線上與原點的距離。其他選項中，(A) 上午五點應用「－7」表示，(C) 絕對值越大，數值不一定越大，(D) 10－3=7，是正數。"
+      }
+    ]
+  },
+  { 
+    "type":"科學記號 ",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位專精台灣國中數學大考題的AI老師。"
+      },
+      {
+        "role": "user",
+        "content": "若 0.0000002＝2×10^□，則□＝？(A) 8 (B) －7 (C) －8 (D) －9 "
+      },
+      {
+        "role": "assistant",
+        "content": "答案是：(B) －7。因為 0.0000002 可以寫成 2×10^－7。"
+      }
+    ]
+  },
+  {
+    "type":"整數計算 絕對值",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位專精台灣國中數學大考題的AI老師。"
+      },
+      {
+        "role": "user",
+        "content": "假設｜甲－3｜＋｜乙＋1｜＝0，則甲－乙＝？ (A) －2 (B) 2 (C) 3 (D) 4"
+      },
+      {
+        "role": "assistant",
+        "content": "答案是：(D) －2。因為｜甲－3｜＋｜乙＋1｜＝0，表示兩個絕對值算出來都是0，甲＝3且乙＝－1，所以甲－乙＝3 - (-1) = 4。"
+      }
+    ]
+  },
+  {
+    "type":"科學記號",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位專精台灣國中數學大考題的AI老師。"
+      },
+      {
+        "role": "user",
+        "content": "下列何者是 0.0000168 的科學記號？ (A) 1.68×10^－3 (B) 1.68×10^－４ (C) 1.68×10^－５ (D) 16.8×10^－5 "
+      },
+      {
+        "role": "assistant",
+        "content": "答案是：(C) 1.68×10^－5。科學記號的表示方式是將數字寫成 a×10^n 的形式，其中 1 ≤ a < 10，n 為整數。0.0000168 可以寫成 1.68×10^－5。"
+      }
+    ]
+  },
+  {
+    "type":"科學記號 整數計算",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位專精台灣國中數學大考題的AI老師。"
+      },
+      {
+        "role": "user",
+        "content": "若樂透彩頭彩中獎機率約為五百萬分之一，將此機率表示成科學記號的結果可記為？ (A) 2×10^－7 (B) 2×10^－8 (C) 5×10^7(D) 2×10^8"
+      },
+      {
+        "role": "assistant",
+        "content": "答案是：(A) 2×10^－7。因為五百萬分之一可以表示為 1/5000000 = 2/10000000 =2×10^－7，這是將機率轉換為科學記號的正確方式。"
+      }
+    ]
+  },
+  {
+    "type":"科學記號 整數計算",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位專精台灣國中數學大考題的AI老師。"
+      },
+      {
+        "role": "user",
+        "content": "請問 2.03×10^－3小數點後第幾位開始不為 0？ (A) 3 (B) 4 (C) 5 (D) 6 "
+      },
+      {
+        "role": "assistant",
+        "content": "答案是：(A) 3。因為 2.03×10^－3 等於 0.00203，小數點後第3位開始不為零。"
+      }
+    ]
+  },
+  {
+    "type":"科學記號 整數計算",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位專精台灣國中數學大考題的AI老師。"
+      },
+      {
+        "role": "user",
+        "content": "已知數線上 A(4)、B(－3)、C(5)、D(－5)四個點，則∣(－3)－(5)∣是表示下列哪一個線段的長度？(A) BD (B) AD (C) BC (D) CD "
+      },
+      {
+        "role": "assistant",
+        "content": "答案是：(C) BC。因為∣(－3)－(5)∣ = ∣－8∣ = 8，表示點 B 和點 C 之間的距離是 8 單位。"
+      }
+    ]
+  },
+  {
+    "type":"科學記號 整數計算",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位專精台灣國中數學大考題的AI老師。"
+      },
+      {
+        "role": "user",
+        "content": "18÷(－3^2)－｜20＋(－2)^3×3｜＝？  (A) －3 (B) －4 (C) －5 (D) －6"
+      },
+      {
+        "role": "assistant",
+        "content": "答案是：(D) －6。計算過程如下：\n\n1. 先計算括號內的運算：\n   - －3^2 =- 9\n   -(－2)^3 = - 8\n   20 + -8 × 3 = 20 - 24 = -4\n\n2. 然後代入原式：\n    18 ÷ (-9) - |－4| = -2 - 4 = -6\n\n所以答案是 (D) －6。"
+      }
+    ]
+  },
+  {
+    "type":"整數計算",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位專精台灣國中數學大考題的AI老師。"
+      },
+      {
+        "role": "user",
+        "content": "59 ×（－234）＋（－59）× 66＋59 × 310=？(A) －590 (B) 0 (C) 59 (D) 590  "
+      },
+      {
+        "role": "assistant",
+        "content": "答案是：(D) 590 。因為 59 ×（－234）＋（－59）× 66＋59 × 310 = 59 × (－234 - 66 + 310) = 59 × 10 = 590，然後再加上負號，所以結果是 0。"
+      }
+    ]
+  },
+  {
+    "type":"整數計算 絕對值",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位專精台灣國中數學大考題的AI老師。"
+      },
+      {
+        "role": "user",
+        "content": "已知甲為整數，且－4 2/5＜｜甲｜＜8 3/4，則符合條件的甲共有多少個？(A) 12 (B) 13 (C)17 (D) 18  "
+      },
+      {
+        "role": "assistant",
+        "content": "答案是：(C) 17。因為絕對值一定不會是負數，所以不等式－4 2/5＜｜甲｜＜8 3/4等同於0≤ |甲| < 8 3/4，代表甲的絕對值小於 8.75，所以甲可以是從 −8 到 8 的整數，共有 17 個符合條件，答案是 (C) 17。"
+      }
+    ]
+  },
+  {
+    "type":"整數計算 絕對值",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位專精台灣國中數學大考題的AI老師。"
+      },
+      {
+        "role": "user",
+        "content": "若(－2)－｜－7∣＝甲，則甲的相反數為何？(A) －9 (B) －5 (C) 5 (D) 9  "
+      },
+      {
+        "role": "assistant",
+        "content": "答案是：(D) 9。因為(－2)－｜－7∣＝－2－7＝－9，甲的相反數是 9，所以答案是 (D) 9。"
+      }
+    ]
+  },
+  {
+    "type":"整數計算",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位專精台灣國中數學大考題的AI老師。"
+      },
+      {
+        "role": "user",
+        "content": "算式 601×(－25)與下列哪一個算式的答案相同？ (A) 600×(－25)－1×(－25) (B) 600×(－25)＋1×(－25) (C) 600×(－20)－1×(－5) (D) 600×(－20)＋1×(－5)"
+      },
+      {
+        "role": "assistant",
+        "content": "答案是：(B)600x(－25)＋1×(－25)。因為將 601×(－25) 用乘法分配律拆開，可寫成 (600＋1)×(－25)＝600×(－25)＋1×(－25)，所以答案是 (B)。"
+      }
+    ]
+  },
+  {
+    "type":"整數計算 絕對值",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位專精台灣國中數學大考題的AI老師。"
+      },
+      {
+        "role": "user",
+        "content": "若｜a｜＝2，｜b｜＝7，則 a－b 的最小值為？(A) －9 (B) －10 (C) 5 (D) 10  "
+      },
+      {
+        "role": "assistant",
+        "content": "答案是：(A) －9。因為 a 的絕對值是 2，b 的絕對值是 7，所以 a 的最小值是 -2，b 的最大值是 7，因此 a - b 的最小值為 -2 - 7 = -9。"
+      }
+    ]
+  },
+  {
+    "type":"科學記號 整數計算",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位專精台灣國中數學大考題的AI老師。"
+      },
+      {
+        "role": "user",
+        "content": "在某項實驗的培養皿中，原有 1 個細菌，每經過 1 分鐘細菌數量會增加為原來的 2 倍， 則經過 1 小時後，細菌有幾個？(A) 120 (B)180 (C) 2^60 (D) 3^60"
+      },
+      {
+        "role": "assistant",
+        "content": "答案是：(C) 2^60。因為每分鐘細菌數量增加為原來的 2 倍，經過 1 小時（60 分鐘）後，細菌數量將是 1 × 2^60 = 2^60 個。"
+      }
+    ]
+  },
+  {
+    "type":"指數計算 分數",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位專精台灣國中數學大考題的AI老師。"
+      },
+      {
+        "role": "user",
+        "content": "設 a＝(1.1)^100，b＝(1.1)^101，c＝(0.9)^100，d=(0.9)^101，比較 a、b、c、d 的大小為何？(A) c＜ d＜ a＜ b (B) d＜ c＜ a＜ b (C) d＜ c＜ b＜ a (D) d＜ c＜ b＜ a "
+      },
+      {
+        "role": "assistant",
+        "content": "答案是：(B) d＜ c＜ a＜ b。因為 (1.1)^n 隨著 n 的增加而增大，而 (0.9)^n 隨著 n 的增加而減小，所以 d < c < a < b。"
+      }
+    ]
+  },
+  {
+    "type":"科學記號 整數計算",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位專精台灣國中數學大考題的AI老師。"
+      },
+      {
+        "role": "user",
+        "content": "衛生福利部在食品藥物管理署培養了下列四種長度不同的細菌，請問哪一種細菌長度最小？(A) 3.1×10^－5 mm (B) 2.8×10^－5 mm (C) 3.1×10^－4 mm (D) 2.8×10^－4 mm "
+      },
+      {
+        "role": "assistant",
+        "content": "答案是：(B) 2.8×10^－5 mm。因為科學記號中，指數越小，數值越小，所以 2.8×10^－5 mm 小於 3.1×10^－5 mm、3.1×10^－4 mm 和 2.8×10^－4 mm。"
+      }
+    ]
+  },
+  {
+    "type":"整數計算 正負數",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位專精台灣國中數學大考題的AI老師。"
+      },
+      {
+        "role": "user",
+        "content": "設 A、B、C 皆為整數，已知 A×B＝0，B×C＜0，A－B＞0，則 A、B、C 的大小關係為何？(A) B＜A＜C (B) B＜C＜A (C) C＜A＜B (D) 無法判斷  "
+      },
+      {
+        "role": "assistant",
+        "content": "答案是：(A) B＜A＜C。A×B＝0 → A＝0（因為 B 不能是 0，否則 B×C 不會小於 0），A－B＞0 → 0－B＞0 → B＜0，B×C＜0 → B 負，C 就是正的，所以 B＜A＜C"
+      }
+    ]
+  },
+  {
+    "type":"整數計算",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位專精台灣國中數學大考題的AI老師。"
+      },
+      {
+        "role": "user",
+        "content": "小林與小克分別在數線上表示－15、45 位置上，同時相向而行(面對面)。 若相同時間內，小林走 2 步，而小克只能走 1 步(兩人每步距離相同)，則兩人會在數線上哪個位置相遇？(A) 10 (B) 15 (C) 20 (D) 25 "
+      },
+      {
+        "role": "assistant",
+        "content": "答案是:(D) 25。小林在 -15，走得比較快（每次走 2），小克在 45（每次走 1），兩人相向而行，每次總共靠近 3 單位，他們原本相隔 60，所以 60 ÷ 3 = 20 次後相遇。小林從 -15 出發走了 20 次，每次走 2，共走 40，-15 + 40 = 25，所以他們會在 25 相遇，答案是 (D)。"
+      }
+    ]
+  },
+  {
+    "type":"整數計算",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位專精台灣國中數學大考題的AI老師。"
+      },
+      {
+        "role": "user",
+        "content": "數線上有隻金龜子在某一點上,先向左移6單位,再向右移8單位,又向左移3單位,最後停在表示-6的點上,則此隻金龜子最初位置表示的數是多少? (A) -5 (B) -6 (C) -7 (D) -8 "
+      },
+      {
+        "role": "assistant",
+        "content": " 答案是：(A) -5。金龜子最初位置可以用以下計算得出：\n\n1. 向左移6單位，表示位置變為 x - 6。\n2. 向右移8單位，表示位置變為 (x - 6) + 8 = x + 2。\n3. 再向左移3單位，表示位置變為 (x + 2) - 3 = x - 1。\n4. 最後停在 -6，所以 x - 1 = -6，解得 x = -5。\n\n因此，金龜子最初位置表示的數是 -5。"
+      }
+    ]
+  },
+  {
+    "type":"整數計算 絕對值",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位專精台灣國中數學大考題的AI老師。"
+      },
+      {
+        "role": "user",
+        "content": "若a=-3,b=8,則下列何式的結果會最小?(A) |a+b| (B)|a-b|(C) |a| -|b| (D)|a| + |b|"
+      },
+      {
+        "role": "assistant",
+        "content": "答案是：(C) |a| - |b|。因為 |a+b| = |-3+8| = |5| = 5，|a-b| = |-3-8| = |-11| = 11，|a| - |b| = 3 - 8 = -5，|a| + |b| = 3 + 8 = 11。所以最小的是 (C) |a| - |b| = -5。"
+      }
+    ]
+  },  {
+    "type":"整數計算",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位專精台灣國中數學大考題的AI老師。"
+      },
+      {
+        "role": "user",
+        "content": "若甲數是比3.2小的最大整數,乙數是比-1.5大的最小整數,則甲+乙=? (A) 1 (B) 2 (C) 3 (D) 4"
+      },
+      {
+        "role": "assistant",
+        "content": "答案是：(B) 2。甲數是比3.2小的最大整數，即甲 = 3；乙數是比-1.5大的最小整數，即乙 = -1。所以甲+乙 = 3 + (-1) = 2。"
+      }
+    ]
+  },  {
+    "type":"次方 正數數",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位專精台灣國中數學大考題的AI老師。"
+      },
+      {
+        "role": "user",
+        "content": "若a、b、c是任意的正整數,則下列哪一個數一定是負數?(A) (-a)x(-b) (B)(-a)-(-b) (C)(-a)^3x(-b)^2 (D) (-a)^3x(-b)^5"
+      },
+      {
+        "role": "assistant",
+        "content": "(C)(-a)^3x(-b)^2。(C) 中一個是奇次方變負，一個是偶次方變正，負 × 正 = 負，所以答案是 (C)。"
+      }
+    ]  
+  },  {
+    "type":"",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位專精台灣國中數學大考題的AI老師。"
+      },
+      {
+        "role": "user",
+        "content": ""
+      },
+      {
+        "role": "assistant",
+        "content": ""
+      }
+    ]
+  },  {
+    "type":"",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位專精台灣國中數學大考題的AI老師。"
+      },
+      {
+        "role": "user",
+        "content": ""
+      },
+      {
+        "role": "assistant",
+        "content": ""
+      }
+    ]
+  },  {
+    "type":"",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位專精台灣國中數學大考題的AI老師。"
+      },
+      {
+        "role": "user",
+        "content": ""
+      },
+      {
+        "role": "assistant",
+        "content": ""
+      }
+    ]
+  },  {
+    "type":"",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位專精台灣國中數學大考題的AI老師。"
+      },
+      {
+        "role": "user",
+        "content": ""
+      },
+      {
+        "role": "assistant",
+        "content": ""
+      }
+    ]
+  },  {
+    "type":"",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位專精台灣國中數學大考題的AI老師。"
+      },
+      {
+        "role": "user",
+        "content": ""
+      },
+      {
+        "role": "assistant",
+        "content": ""
+      }
+    ]
+  },  {
+    "type":"",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位專精台灣國中數學大考題的AI老師。"
+      },
+      {
+        "role": "user",
+        "content": ""
+      },
+      {
+        "role": "assistant",
+        "content": ""
+      }
+    ]
+  },  {
+    "type":"",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位專精台灣國中數學大考題的AI老師。"
+      },
+      {
+        "role": "user",
+        "content": ""
+      },
+      {
+        "role": "assistant",
+        "content": ""
+      }
+    ]
+  },  {
+    "type":"",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位專精台灣國中數學大考題的AI老師。"
+      },
+      {
+        "role": "user",
+        "content": ""
+      },
+      {
+        "role": "assistant",
+        "content": ""
+      }
+    ]
+  },  {
+    "type":"",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位專精台灣國中數學大考題的AI老師。"
+      },
+      {
+        "role": "user",
+        "content": ""
+      },
+      {
+        "role": "assistant",
+        "content": ""
+      }
+    ]
+  },  {
+    "type":"",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位專精台灣國中數學大考題的AI老師。"
+      },
+      {
+        "role": "user",
+        "content": ""
+      },
+      {
+        "role": "assistant",
+        "content": ""
+      }
+    ]
+  },  {
+    "type":"",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位專精台灣國中數學大考題的AI老師。"
+      },
+      {
+        "role": "user",
+        "content": ""
+      },
+      {
+        "role": "assistant",
+        "content": ""
+      }
+    ]
+  },  {
+    "type":"",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位專精台灣國中數學大考題的AI老師。"
+      },
+      {
+        "role": "user",
+        "content": ""
+      },
+      {
+        "role": "assistant",
+        "content": ""
+      }
+    ]
+  },  {
+    "type":"",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位專精台灣國中數學大考題的AI老師。"
+      },
+      {
+        "role": "user",
+        "content": ""
+      },
+      {
+        "role": "assistant",
+        "content": ""
+      }
+    ]
+  },  {
+    "type":"",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位專精台灣國中數學大考題的AI老師。"
+      },
+      {
+        "role": "user",
+        "content": ""
+      },
+      {
+        "role": "assistant",
+        "content": ""
+      }
+    ]
+  },  {
+    "type":"",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位專精台灣國中數學大考題的AI老師。"
+      },
+      {
+        "role": "user",
+        "content": ""
+      },
+      {
+        "role": "assistant",
+        "content": ""
+      }
+    ]
+  },  {
+    "type":"",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位專精台灣國中數學大考題的AI老師。"
+      },
+      {
+        "role": "user",
+        "content": ""
+      },
+      {
+        "role": "assistant",
+        "content": ""
+      }
+    ]
+  },  {
+    "type":"",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位專精台灣國中數學大考題的AI老師。"
+      },
+      {
+        "role": "user",
+        "content": ""
+      },
+      {
+        "role": "assistant",
+        "content": ""
+      }
+    ]
+  },  {
+    "type":"",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位專精台灣國中數學大考題的AI老師。"
+      },
+      {
+        "role": "user",
+        "content": ""
+      },
+      {
+        "role": "assistant",
+        "content": ""
+      }
+    ]
+  },  {
+    "type":"",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位專精台灣國中數學大考題的AI老師。"
+      },
+      {
+        "role": "user",
+        "content": ""
+      },
+      {
+        "role": "assistant",
+        "content": ""
+      }
+    ]
+  },  {
+    "type":"",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位專精台灣國中數學大考題的AI老師。"
+      },
+      {
+        "role": "user",
+        "content": ""
+      },
+      {
+        "role": "assistant",
+        "content": ""
+      }
+    ]
+  },  {
+    "type":"",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位專精台灣國中數學大考題的AI老師。"
+      },
+      {
+        "role": "user",
+        "content": ""
+      },
+      {
+        "role": "assistant",
+        "content": ""
+      }
+    ]
+  },  {
+    "type":"",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位專精台灣國中數學大考題的AI老師。"
+      },
+      {
+        "role": "user",
+        "content": ""
+      },
+      {
+        "role": "assistant",
+        "content": ""
+      }
+    ]
+  },  {
+    "type":"",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位專精台灣國中數學大考題的AI老師。"
+      },
+      {
+        "role": "user",
+        "content": ""
+      },
+      {
+        "role": "assistant",
+        "content": ""
+      }
+    ]
+  },  {
+    "type":"",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位專精台灣國中數學大考題的AI老師。"
+      },
+      {
+        "role": "user",
+        "content": ""
+      },
+      {
+        "role": "assistant",
+        "content": ""
+      }
+    ]
+  },  {
+    "type":"",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位專精台灣國中數學大考題的AI老師。"
+      },
+      {
+        "role": "user",
+        "content": ""
+      },
+      {
+        "role": "assistant",
+        "content": ""
+      }
+    ]
+  },  {
+    "type":"",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位專精台灣國中數學大考題的AI老師。"
+      },
+      {
+        "role": "user",
+        "content": ""
+      },
+      {
+        "role": "assistant",
+        "content": ""
+      }
+    ]
+  },  {
+    "type":"",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位專精台灣國中數學大考題的AI老師。"
+      },
+      {
+        "role": "user",
+        "content": ""
+      },
+      {
+        "role": "assistant",
+        "content": ""
+      }
+    ]
+  },  {
+    "type":"",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位專精台灣國中數學大考題的AI老師。"
+      },
+      {
+        "role": "user",
+        "content": ""
+      },
+      {
+        "role": "assistant",
+        "content": ""
+      }
+    ]
+  },  {
+    "type":"",
+    "messages": [
+      {
+        "role": "system",
+        "content": "你是一位專精台灣國中數學大考題的AI老師。"
+      },
+      {
+        "role": "user",
+        "content": ""
+      },
+      {
+        "role": "assistant",
+        "content": ""
+      }
+    ]
+  }
+]
